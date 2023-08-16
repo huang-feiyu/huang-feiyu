@@ -5,5 +5,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - run: |
-         curl https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md --output README.md.tmp,
+         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md,
          mv README.md.tmp README.md.
