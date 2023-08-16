@@ -12,15 +12,8 @@ jobs:
        run: |
          wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md
          git add -A
-
-     - name: Commit files
-       run: |
-         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com",
-         git config --local user.name "github-actions[bot]",
-         git commit -a -m "Auto-update".
-  
-     - name: Push changes
-       uses: ad-m/github-push-action@master
+     
+     - uses: stefanzweifel/git-auto-commit-action@v4
        with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+         commit_message: Auto commit
+
