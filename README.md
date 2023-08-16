@@ -1,8 +1,6 @@
 # Feiyu Huang | Academic Page
 
-> [Personal Lists](https://gist.github.com/huang-feiyu/f78549e6282399338e4d08a7c7a21089)
-
-**Feiyu Huang** (黄飞宇) [[CV](https://github.com/huang-feiyu/academics/blob/main/assets/CV.pdf)] [[Email](mailto:0711feiyu@gmail.com)] [[GitHub](https://github.com/huang-feiyu)] [[Blog (博客)](https://xn--29s704loyd.com/)]
+**Feiyu Huang** (黄飞宇) [[CV](https://github.com/huang-feiyu/academics/blob/main/assets/CV.pdf)] [[Email](mailto:0711feiyu@gmail.com)] [[GitHub](https://github.com/huang-feiyu)] [[Blog (博客)](https://xn--29s704loyd.com/)] [[Others](https://gist.github.com/huang-feiyu/f78549e6282399338e4d08a7c7a21089)]
 
 - An undergraduate intern in [Immersive Design Group](https://www.seungwooje.com/home) supervised by [Prof. Je](https://www.seungwooje.com/) (2023.07 - 2023.12)
 - An undergraduate majoring *computer science* in [Harbin Institute of Technology, Shenzhen](http://en.hitsz.edu.cn/) (2020.09 - 2024.06)
