@@ -1,7 +1,7 @@
-name: pull
+name: update
 on: [push]
 jobs:
- check-bats-version:
+ update-readme:
    runs-on: ubuntu-latest
    steps:
      - name: "📥 Update GitHub Readme files"
@@ -10,21 +10,16 @@ jobs:
       # Runs a set of commands using the runners shell
      - name: Update README.md
        run: |
-         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md
+         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md.
 
-     - name: pull-request
-       uses: repo-sync/pull-request@v2
-       with:
-         destination_branch: "main"
-         github_token: ${{ secrets.GITHUB_TOKEN }}
-
-     - name: commit
+     - name: Commit files
        run: |
-         git config --global user.email 0711feiyu@gmail.com
-         git config --global user.name huang-feiyu
-         git add .
-         git commit -m "README update Automation" -a
+         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com",
+         git config --local user.name "github-actions[bot]",
+         git commit -a -m "Add changes".
+  
      - name: Push changes
        uses: ad-m/github-push-action@master
        with:
-         github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
