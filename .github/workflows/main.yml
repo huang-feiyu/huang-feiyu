@@ -10,8 +10,8 @@ jobs:
       # Runs a set of commands using the runners shell
      - name: Update README.md
        run: |
-         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md,
-         git add README.md.
+         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md
+         git add -A
 
      - name: Commit files
        run: |
