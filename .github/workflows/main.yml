@@ -1,9 +1,8 @@
-name: restartServer
+name: pull
 on: [push]
 jobs:
  check-bats-version:
    runs-on: ubuntu-latest
    steps:
      - run: |
-         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md.tmp,
-         mv README.md.tmp README.md.
+         wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md.
