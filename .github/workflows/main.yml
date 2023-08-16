@@ -1,11 +1,9 @@
-name: CURL CLI ACTION
-on: push
+name: restartServer
+on: [push]
 jobs:
-  curl:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: curl
-      uses: enflo/curl-action@master
-      with:
-        curl: https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md
+ check-bats-version:
+   runs-on: ubuntu-latest
+   steps:
+     - run: |
+         curl https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md --output README.md.tmp,
+         mv README.md.tmp README.md.
