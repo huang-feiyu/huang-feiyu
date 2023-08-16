@@ -14,13 +14,9 @@ jobs:
       - name: Update README.md
         run: |
           wget https://raw.githubusercontent.com/huang-feiyu/academics/main/README.md -O README.md
-          cat ""
-          cat ""
-          cat ""
+          echo "====================="
           git diff
-          cat ""
-          cat ""
-          cat ""
+          echo "======================"
           git add -A
      
       - uses: stefanzweifel/git-auto-commit-action@v4
