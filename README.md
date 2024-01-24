@@ -32,5 +32,5 @@ Both the questions lead me to *Human-Computer Interaction* (HCI).
 * Soft Skills: Problem-Solving, Communication, Cooperation
 
 <details><summary> </summary>
-<p style="color:#FFFFFF">In 2023 Oct, I found HCI research was different from what I thought before. I chose to work in industry and rethought what I wanted to do. Clearly, I didn't want to do research kinds of things.</p>
+<p style="color:#FFFFFF">In 2023 Oct, I found HCI research was different from what I thought before. I chose to work in industry and rethought what I wanted to do. Clearly, I didn't want to do research kinds of things. Besides, my personality is also against programming. I was born at a wrong time</p>
 </details>
