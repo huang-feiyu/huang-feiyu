@@ -5,8 +5,6 @@
 - An undergraduate intern in [Immersive Design Group](https://www.seungwooje.com/home) supervised by [Prof. Je](https://www.seungwooje.com/) (2023.07 - 2024.?)
 - An undergraduate majoring *computer science* in [Harbin Institute of Technology, Shenzhen](http://en.hitsz.edu.cn/) (2020.09 - 2024.06)
 
-<p style="color:#FFFFFF">In 2023 Oct, I found HCI research was different from what I thought before. I chose to work in industry and rethought what I wanted to do. Clearly, I didn't want to do research kinds of things.</p>
-
 ![Feiyu Huang](https://raw.githubusercontent.com/huang-feiyu/academics/main/assets/huang-in-lab.jpg)
 
 ## Current Work
@@ -32,3 +30,8 @@ Both the questions lead me to *Human-Computer Interaction* (HCI).
 * Developer Tools: Shell, Git/GitHub, Linux
 * General Skills: Vim, Markdown, LaTeX, MS Office, Blender
 * Soft Skills: Problem-Solving, Communication, Cooperation
+
+<details>
+<summary> </summary>
+<p style="color:#FFFFFF">In 2023 Oct, I found HCI research was different from what I thought before. I chose to work in industry and rethought what I wanted to do. Clearly, I didn't want to do research kinds of things.</p>
+</details>
